@@ -5,7 +5,7 @@
 const getAllJobs = async (req, res) => {
   //   const jobs = await Job.find({ createdBy: req.user.userId }).sort("createdAt");
   //   res.status(StatusCodes.OK).json({ jobs, count: jobs.length });
-  res.send("getAll the job");
+  res.send(req.user);
 };
 const getJob = async (req, res) => {
   //   const {
